@@ -1,0 +1,4 @@
+require 'csv'
+CSV.open('yp360fortune1.csv', 'r').each do |row|
+  Office.create(:name => row[0], :total => row[1], :region_id => row[2])
+end
