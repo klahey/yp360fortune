@@ -1,0 +1,517 @@
+/*
+Font: 		Trend Sans
+Style: 		One
+URL: 		http://www.youworkforthem.com/product.php?sku=T4169
+Foundry: 	LatinoType
+Foundry: 	http://www.youworkforthem.com/designer/220/latinotype
+Copyright:	Copyright (c) 2012 by Daniel Hernandez & Paula nazal. All rights reserved.
+Version: 	1.1
+Created:	January 12, 2013
+License: 	http://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Trend Sans One';
+	src:url('trend-sans-one.ttf') format('truetype'),  
+		url('trend-sans-one.woff') format('woff'),
+		url('trend-sans-one.svg#ywftsvg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, header, p, a, em, font, img, ol, ul, li, table, tr, th, td {
+	border: 0 none;
+	font-size: 100%;
+	font-weight: 100;
+	font-style: normal;
+	margin: 0;
+	outline: 0 none;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	font-weight: 100;
+}
+body {
+	overflow: scroll;
+	margin-top: 147px;
+	font-family: Helvetica, Arial, Sans-Serif;
+	color: #666;
+}
+#wrapper {
+	width: 920px;
+	margin: 0 auto;
+}
+.red {
+	color: #C33;
+}
+.black {
+	color: #000;
+}
+.gray {
+	color: #666;
+}
+.lightgray {
+	color: #CCC;
+}
+.registered {
+	font-size: 0.7em;
+    vertical-align: top;
+}
+/*Navigation
+----------------------------------------------------------------------------*/
+
+header, #header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 5px solid #C33;
+	position: fixed;
+	top: 0;
+	width: 920px;
+	background-color: white;
+	z-index: 5;
+}
+nav, #nav {
+	font-family: "Trend Sans One", Helvetica, Arial, Sans-Serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+nav img, #nav img {
+	border-width:0px;
+}
+nav table, #nav table {
+	width: 100%;
+}
+table thead th {
+	letter-spacing: -1px;
+}
+nav table tbody tr td, #nav table tbody tr td {
+	width: 20%;
+	text-align: center;
+}
+nav table tbody tr td a, #nav table tbody tr td a {
+	color: #C33;
+	text-decoration: none;
+}
+nav table tbody tr td a:hover, #nav table tbody tr td a:hover {
+	color: #666;
+}
+/*Legend
+----------------------------------------------------------------------------*/
+
+#legendcontainer {
+	max-width: 900px;
+	padding: 10px;
+}
+#legendcontainer img {
+	float: left;
+}
+#legend {
+	border: 5px solid #999999;
+    color: #666666;
+    float: left;
+    font-family: 'Trend Sans One',Helvetica,Arial,Sans-Serif;
+    margin: 7px 20px 0;
+    padding: 12px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 530px;
+}
+#legend a {
+	color: inherit;
+	text-decoration: none;
+}
+#legend p {
+	letter-spacing: -1px;
+    margin-top: 9px;
+	text-decoration: none
+}
+#legend p.sub {
+	font-size: 10px;
+	color: #999;
+	margin-top: 3px;
+}
+
+#legend p.sub.red {
+	color: #F66;
+}
+/*Universal Body
+----------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+	color: #C33;
+	letter-spacing: -3px;
+}
+h1.title, h2.title {
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+	color: #999;
+	letter-spacing: -3px;
+}
+h2 a {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+h3 {
+	font-size: 26px;
+	text-transform: uppercase;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+	color: #666;
+}
+h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+	color: #666;
+}
+#box {
+	max-width: 890px;
+	border: 5px solid #C33;
+	padding: 10px;
+	margin-bottom: 10px;
+	clear: both;
+}
+table thead th.link {
+	cursor: pointer;
+}
+table thead th.link:hover {
+	color: #666;
+}
+/*Dynamic Graph
+----------------------------------------------------------------------------*/
+
+.dataRow td {
+	height: 15px;
+	padding-bottom: 10px;
+}
+.scoreBar {
+	background-color: #CCC;
+	padding-top: 10px;
+	margin: 0 10px;
+	width: 0%;
+}
+/*Leaderboard
+----------------------------------------------------------------------------*/
+
+#index-container table {
+	width: 100%;
+	text-transform: uppercase;
+}
+#index-container table thead {
+	text-align: left;
+	white-space: nowrap;
+	color: #c33;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+}
+#index-container table thead th {
+	padding-bottom: 10px;
+}
+#index-container table tbody tr td {
+	white-space: nowrap;
+	font-size: 14px;
+}
+#index-container table tbody tr td.rowTitle a {
+	text-decoration: none;
+	color: inherit;
+}
+#index-container table tbody tr td.rowTitle a:hover {
+	color: #C33;
+}
+#index-container table tbody tr td.rowScore {
+	width: 100%;
+}
+#index-container table tbody tr td.rowTitle a:hover {
+}
+#index-container table tbody tr td.rowNumber {
+	text-align: right;
+}
+#index-region {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #c33;
+}
+#regionTable {
+}
+#index-office {
+	padding-right: 14px;
+	width: 430px;
+	float: left;
+	border-right: 1px solid #c33;
+}
+#officeTable {
+	width: 100%;
+}
+#index-rep {
+	padding-left: 14px;
+	width: 430px;
+	float: left;
+}
+#repTable {
+	width: 100%;
+}
+/*Regions
+----------------------------------------------------------------------------*/
+
+#region-container table {
+	width: 100%;
+	text-transform: uppercase;
+}
+#region-container table thead {
+	text-align: left;
+	white-space: nowrap;
+	color: #c33;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+}
+#region-container table thead th {
+	padding-bottom: 10px;
+}
+#region-container table tbody tr td {
+	white-space: nowrap;
+	font-size: 14px;
+}
+#region-container table tbody tr td.rowTitle {
+	min-width: 184px;
+}
+#region-container table tbody tr td.rowTitle a {
+	text-decoration: none;
+	color: inherit;
+}
+#region-container table tbody tr td.rowTitle a:hover {
+	color: #C33;
+}
+#region-container table tbody tr td.rowScore {
+	width: 100%;
+}
+.regionScoreBarTotal {
+	background-color: #666;
+	padding-top: 10px;
+	margin: 0 10px;
+	width: 0%;
+}
+#region-container table tbody tr td.rowNumber {
+	text-align: right;
+}
+/*Offices List
+----------------------------------------------------------------------------*/
+
+#office-container table {
+	text-transform: uppercase;
+}
+#office-container table thead {
+	text-align: left;
+	white-space: nowrap;
+	color: #c33;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+}
+#office-container table thead th {
+	padding-bottom: 10px;
+}
+#office-container table tbody tr td {
+	white-space: nowrap;
+	font-size: 14px;
+}
+#office-container table tbody tr td.rowTitle a {
+	text-decoration: none;
+	color: inherit;
+}
+#office-container table tbody tr td.rowTitle a:hover {
+	color: #C33;
+}
+#office-container table tbody tr td.rowScore {
+	width: 100%;
+}
+#office-container table tbody tr td.rowNumber {
+	text-align: right;
+}
+/*Office Detail
+----------------------------------------------------------------------------*/
+
+#hiddenThead {
+	background-color: white;
+	position: fixed;
+	top: 150px;
+	z-index: 4;
+	max-width: 890px;
+	border-bottom: 1px solid #C33;
+	display: none;
+}
+#office-detail-container table {
+	text-transform: uppercase;
+	width: 890px;
+}
+#office-detail-container table thead {
+	text-align: left;
+	color: #c33;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+}
+#office-detail-container table thead.float {
+	background-color: white;
+	position: fixed;
+	top: 150px;
+}
+#office-detail-container table thead th {
+	padding-bottom: 10px;
+	vertical-align: bottom;
+}
+#office-detail-container table thead th.rowNumber {
+	text-align: right;
+}
+#office-detail-container table tbody tr td {
+	white-space: nowrap;
+	font-size: 14px;
+}
+#office-detail-container table tbody tr td.rowTitle a {
+	text-decoration: none;
+	color: inherit;
+}
+#office-detail-container table tbody tr td.rowTitle a:hover {
+	color: #C33;
+}
+#office-detail-container table tbody tr td.rowScore {
+	width: 100%;
+}
+#office-detail-container table tbody tr td.rowNumber, #office-detail-container table thead tr td.rowNumber {
+	text-align: right;
+}
+#totalGoalTable {
+	margin-bottom: 10px;
+    width: 100%;
+}
+#totalGoalTable .rowScore {
+	background-color: #CCC;
+	height: 0px;
+	padding: 0px;
+}
+#totalGoalTable .scoreBar {
+	background-color: #C33;
+	padding-top: 5px;
+	margin: 0px;
+	width: 0%;
+}
+.fine {
+	font-size:12px;
+	text-transform:uppercase;
+}
+.fine a {
+	color: inherit;
+}
+.fine a:hover {
+	color: #C33;
+}
+.salesRollover {
+	vertical-align: middle;	
+}
+.explanationBox {
+	width: 220px;
+	padding: 10px 20px;
+	font-size: 10px;
+	line-height: 2em;
+	z-index: 10;
+	position: absolute;
+	background-color: #FFFFFF;
+	border: 5px solid #CC3333;
+	box-shadow: 0px 1px 3px #300;
+	display: none;
+}
+.explanationBox .red {
+	font-size: 12px;
+	font-weight: bold;
+}
+/*Rep Detail
+----------------------------------------------------------------------------*/
+#rep-detail-container {
+	border-top: 1px solid #C33;
+}
+#hiddenThead-rep {
+	background-color: white;
+	position: fixed;
+	top: 150px;
+	z-index: 4;
+	max-width: 890px;
+	text-align: left;
+	color: #C33;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+	text-transform: uppercase;
+	border-bottom: 1px solid #C33;
+	display: none;
+}
+#projects-table {
+	width: 100%;
+	text-transform: uppercase;
+	border-top: 1px solid #C33;
+}
+#projects-table thead {
+	text-align: left;
+	color: #C33;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+}
+#projects-table thead th {
+	padding-bottom: 10px;
+	white-space: normal;
+	vertical-align:bottom;
+}
+#projects-table thead th.rowNumber {
+	text-align: right;
+}
+#projects-table tbody tr td {
+	white-space: nowrap;
+	font-size: 14px;
+}
+#projects-table tbody tr td img {
+	max-height: 44px;
+}
+#projects-table tbody tr td.rowTitle a {
+	text-decoration: none;
+	color: inherit;
+}
+#projects-table tbody tr td.rowTitle a:hover {
+	color: #C33;
+}
+#projects-table tbody tr td.rowScore {
+	width: 100%;
+}
+#projects-table tbody tr td.rowNumber, #projects-table thead tr td.rowNumber {
+	text-align: center;
+}
+#rep-info {
+	color: #666666;
+	font-family: 'Trend Sans One', Helvetica, Arial, Sans-Serif;
+	font-size: 26px;
+	margin: 10px 0 15px;
+	padding: 0;
+	text-transform: uppercase;
+}
+#total-earned {
+	margin: 10px 0 8px;
+}
+/*Contest Details
+----------------------------------------------------------------------------*/
+
+#detail-container {
+}
+#detail-container ul {
+	margin: 0px 18px;
+}
+#detail-container ul li {
+	margin: 18px 0px;
+}
+#detail-container a{
+	color: #C33;
+}
+#detail-container a:hover{
+	color: #666;
+}
+#details-table {
+	width: 100%;
+	text-align:center;	
+}
